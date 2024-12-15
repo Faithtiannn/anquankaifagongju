@@ -1,0 +1,30 @@
+/* styles.css */
+.root {
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-prompt-text-fill: #888888;
+}
+
+.button {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #005fa3;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 100;
+    -fx-tab-max-width: 150;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-control-inner-background: #ffffff;
+    -fx-text-background-color: #ffffff;
+}
