@@ -1,7 +1,7 @@
 package com.example.test5;
 
-public class javaFXApp {
+public class javaFXApp extends HelloApplication {
     public static void main(String[] args) {
-        HelloApplication.main(args);
+        launch(args);
     }
 }
